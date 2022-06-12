@@ -11,3 +11,8 @@ TODO
 3. Insert a new graphic caption at some point in time(It can be complicated).
 
 If you are interested, you can join in the maintenance.
+
+References
+=====
+https://blog.thescorpius.com/index.php/2017/07/15/presentation-graphic-stream-sup-files-bluray-subtitle-format/
+https://encrypted.google.com/patents/US20090185789?cl=da
