@@ -136,6 +136,8 @@ public class SupBD implements SubtitleStream {
                             }
                             xpos = o.getXOffset() - minX;
                         } else {
+                            if (ofs > bm.getInternalBuffer().length - 1)
+                                break;
                             if ((b & 0xC0) == 0x40) {
                                 // 00 4x xx -> xxx zeroes
                                 size = ((b - 0x40) << 8) + (buffer[index++] & 0xff);
